@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First HTML Page</title>
+    <link rel="stylesheet" href="a.css">
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <h1 id="hhh">Header</h1>
+        </header>
+
+        <form action="a.html">
+            <fieldset>
+                <legend>Select Box</legend>
+                <select name="sel" id="sel">
+                    <option value="111">111</option>
+                    <option value="222">222</option>
+                    <option value="333">333</option>
+                </select>
+
+                <input type="text" id="captain" list="member">
+                <datalist id="member">
+                    <option value="111">111</option>
+                    <option value="222">222</option>
+                    <option value="333">333</option>
+                </datalist>
+
+                <input type="search">
+                <input type="number">
+
+               <progress value="50" max="100"></progress>
+               <meter value="0.5"></meter>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Checkbox</legend>
+                <ul class="checkgroup">
+                    <li>
+                        <label>
+                            <input type="checkbox" value="blue">Blue Team
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            <input type="checkbox" value="red">Red Team
+                        </label>
+                    </li>
+                </ul>
+            </fieldset>
+
+            <fieldset>
+                <legend>Radio</legend>
+                <ul>
+                    <li><label><input type="radio" name="team">Blue</label></li>
+                    <li><label><input type="radio" name="team">Red</label></li>
+                </ul>
+            </fieldset>
+        </form>
+
+        <section>
+            <figure>
+                <figcaption><h2>Figcaption</h2></figcaption>
+                <table border="1">
+                    <caption>Caption</caption>
+                    <colgroup>
+                        <col/>
+                        <col span="2" style="background-color: yellow;">
+                    </colgroup>
+                    <thead>
+                        <th>id</th>
+                        <th>name</th>
+                        <th>adress</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>111</td>
+                            <td>
+                                <a href="a.html" target="_blank">a.html</a></td>
+                            <td>333</td>
+                        </tr>
+                        <tr>
+                            <td>111</td>
+                            <td>222</td>
+                            <td>333</td>
+                        </tr>
+                        <tr>
+                            <td>111</td>
+                            <td>222</td>
+                            <td>333</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </figure>
+        </section>
+
+        <section data-id="1">
+            <h2>section</h2>
+            <form action="a.html">
+                <label for="email">Email:</label>
+                <input type="email" id="email">
+
+                <label for="password">
+                    Password: <input type="password" id="password">
+                </label>
+
+                <button type="reset">Cancel</button>
+                <button type="submit">Sign in</button>
+            </form>
+        </section>
+
+        <footer style="font-size: o.8rem;">
+            &copy; Hanaro
+        </footer>
+    </div>
+</body>
+</html>
