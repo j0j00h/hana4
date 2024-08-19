@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="../dist/output.css">
+</head>
+<body>
+    <!-- <div class="w-96 h-60 boder border-2 border-gray-200 rounded-md m-auto mt-10">
+        <div class="w-full h-full grid-rows-4 gap-3">
+           <h2 class="text-4xl text-center font-bold ">Login</h2> 
+           <div class="flex justify-around ">
+            <p class="w-1/4">Email</p>
+            <input type="text" class="border">
+           </div>
+           <div class="grid grid-cols-2">
+            <p class="">Password</p>
+            <input type="text" class="border">
+           </div>
+           <div class="flex justify-between">
+            <a href="#" class="text-sm underline">Regist</a>
+            <button class="p-3">Login</button>
+           </div>
+        </div>
+    </div> -->
+
+    <div class="container border-2 rounded-lg mt-5 mx-auto p-3">
+        <h1 class="text-3xl text-center p-3">Login</h1>
+        <div class="grid grid-cols-3 p-3 gap-1">
+            <div class="col-span-full md:col-span-1">
+                <label for="email">Email</label>
+            </div>
+            <div class="col-span-full md:col-span-2">
+                <input id="email" type="email" value="" placeholder="your email" class="border rounded-sm px-2 w-full">
+            </div>
+        </div>
+        <div class="grid grid-cols-3 p-3 gap-1">
+            <div class="col-span-full md:col-span-1">
+                <label for="password">Password</label>
+            </div>
+            <div class="col-span-full md:col-span-2">
+                <input id="password" type="password" value="" placeholder="your password" class="border rounded-sm px-2 w-full">
+            </div>
+        </div>
+        <div class="flex justify-between p-3">
+            <a href="register.html" class="text-sm underline text-blue-700">Regist</a>
+            <button class="bg-blue-500 shadow-lg px-2 py-1 rounded-md text-white text-bold">Login</button>
+        </div>
+    </div>
+</body>
+</html>
