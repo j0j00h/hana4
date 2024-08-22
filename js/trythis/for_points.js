@@ -1,5 +1,8 @@
 //1.
-for (let i = 0.1; i < 1; i = i + 0.1) console.log(Number(i.toFixed(1)));
+for (let i = 0.1; i < 1; i = i + 0.1) {
+  // console.log(i);
+  console.log(Number(i.toFixed(1)));
+}
 
 console.log("----------------------");
 
